@@ -1,0 +1,3749 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Flex:opsz,wght@8..144,500 & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: linear-gradient(60deg, rgb(98, 98, 236), rgb(248, 85, 85) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto flex', sans-serif ;
+}
+
+a, li{
+    font-size: 'Roboto flex', sans-serif;
+    color:aliceblue;
+}
+
+.logo-header img{
+    width: 50px;
+}
+
+header{
+    background-color:rgb(232, 82, 65);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+
+.nav-menu a:hover{
+    color: #e02525;
+}
+
+.nav-menu li:last-child{
+    background-color: #e32e2e;
+    border: 2px solid #da0e0e;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+
+.nav-menu li:last-child:hover{
+    background: transparent;
+    border: 2px solid #b8321d;
+}
+
+.contenido{
+    position: relative;
+    max-width: 1200px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    top: 10px;
+    left: 10px;
+    }
+
+    #Planta{
+      color:  rgb(146, 191, 78);
+    }
+
+    #Veneno{
+      color: violet;
+    }
+
+    #Fuego{
+      color: rgb(255, 115, 0);
+    }
+
+    #Agua{
+      color: rgb(0, 204, 255);
+    }
+
+    #Normal{
+      color: darkgray;
+    }
+    
+    #Bicho{
+      color: rgb(175, 152, 77);
+    }
+
+    #Electrico{
+      color: yellow;
+    }
+
+    #Volador{
+      color: rgb(131, 186, 235);
+    }
+
+    #Tierra{
+      color: darkgreen;
+    }
+
+    #Hada{
+      color: rgb(145, 186, 222);
+    }
+
+    #Fantasma{
+      color: purple;
+    }
+
+    .contenido h3{
+        margin: 0 0 30px;
+        padding: 0;
+        font-size: 30px;
+    text-transform: uppercase;
+    color:#ff0000;
+    }
+    
+    .contenido p{
+        margin: 0 0 25px;
+        padding: 0;
+        font-size: 20px;
+    
+    }
+
+    .container {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .container .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(violet, greenyellow);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: 75px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .container .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .container .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .container .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .container h3{
+        color: coral;
+      }
+      
+      .container .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .container .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .contan {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .contan .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(violet, greenyellow);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -310px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .contan .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .contan .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .contan .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .contan h3{
+        color: coral;
+      }
+      
+      .contan .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .contan .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .venusaur {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .venusaur .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(violet, greenyellow);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -670px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .venusaur .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .venusaur .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .venusaur .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .venusaur h3{
+        color: coral;
+      }
+      
+      .venusaur .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .venusaur .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+      
+      .Charmander {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Charmander .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(255, 115, 0);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -600px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Charmander .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Charmander .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Charmander .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Charmander h3{
+        color:brown;
+      }
+      
+      .Charmander .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Charmander .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+      
+      .Charmeleon {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Charmeleon .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(255, 115, 0);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -990px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Charmeleon .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Charmeleon .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Charmeleon .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Charmeleon h3{
+        color: brown;
+      }
+      
+      .Charmeleon .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Charmeleon .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Charizard {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Charizard .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient( cornflowerblue, cadetblue,  rgb(255, 115, 0));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -1360px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Charizard .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Charizard .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Charizard .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Charizard h3{
+        color: brown;
+      }
+      
+      .Charizard .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Charizard .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Squirtle {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Squirtle .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color:rgb(0, 204, 255);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -1280px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Squirtle .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Squirtle .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Squirtle .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Squirtle h3{
+        color: white;
+      }
+      
+      .Squirtle .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Squirtle .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Wartortle  {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Wartortle  .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color:rgb(0, 204, 255);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -1670px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Wartortle  .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Wartortle  .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Wartortle  .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Wartortle  h3{
+        color: white;
+      }
+      
+      .Wartortle  .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Wartortle  .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Blastoise  {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Blastoise  .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color:rgb(0, 204, 255);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -2048px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Blastoise  .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Blastoise  .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Blastoise  .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Blastoise  h3{
+        color: white;
+      }
+      
+      .Blastoise  .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Blastoise  .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Caterpie   {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Caterpie   .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color:rgb(227, 201, 118);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -1945px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Caterpie   .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Caterpie   .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Caterpie   .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Caterpie   h3{
+        color:darkgreen;
+      }
+      
+      .Caterpie   .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Caterpie   .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Metapod    {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Metapod    .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color:rgb(227, 201, 118);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -2350px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Metapod    .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Metapod    .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Metapod    .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Metapod    h3{
+        color:darkgreen;
+      }
+      
+      .Metapod    .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Metapod    .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Butterfree     {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Butterfree     .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(cornflowerblue, cadetblue, rgb(227, 201, 118) );
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -2710px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Butterfree     .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Butterfree     .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Butterfree    .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Butterfree     h3{
+        color:darkgreen;
+      }
+      
+      .Butterfree     .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Butterfree     .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Weedle      {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Weedle      .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(violet, rgb(227, 201, 118));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -2620px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Weedle      .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Weedle      .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Weedle     .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Weedle      h3{
+        color:darkgreen;
+      }
+      
+      .Weedle      .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Weedle      .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Kakuna       {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Kakuna      .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(violet, rgb(227, 201, 118));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -3020px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Kakuna       .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Kakuna       .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Kakuna      .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Kakuna       h3{
+        color:darkgreen;
+      }
+      
+      .Kakuna       .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Kakuna       .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Beedrill       {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Beedrill      .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(violet, rgb(227, 201, 118));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -3372px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Beedrill       .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Beedrill       .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Beedrill      .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Beedrill       h3{
+        color:darkgreen;
+      }
+      
+      .Beedrill       .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Beedrill       .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Pidgey        {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Pidgey       .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(darkgray, cornflowerblue, cadetblue);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -3290px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Pidgey        .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Pidgey        .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Pidgey       .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Pidgey        h3{
+        color: gray;
+      }
+      
+      .Pidgey        .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Pidgey       .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Pidgeotto         {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Pidgeotto        .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(darkgray, cornflowerblue, cadetblue);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -3680px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Pidgeotto         .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Pidgeotto         .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Pidgeotto        .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Pidgeotto         h3{
+        color: gray;
+      }
+      
+      .Pidgeotto         .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Pidgeotto       .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Pidgeot          {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Pidgeot         .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(darkgray, cornflowerblue, cadetblue);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -4030px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Pidgeot          .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Pidgeot          .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Pidgeot         .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Pidgeot          h3{
+        color: gray;
+      }
+      
+      .Pidgeot          .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Pidgeot        .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Rattata           {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Rattata          .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(151, 144, 144), rgb(129, 121, 121) );
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -4030px;
+        left: -150px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Rattata           .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Rattata           .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Rattata          .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Rattata           h3{
+        color: rgb(22, 21, 21);
+      }
+      
+      .Rattata           .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Rattata         .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Raticate            {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Raticate           .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(151, 144, 144), rgb(129, 121, 121) );
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -4410px;
+        left: 380px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Raticate            .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Raticate            .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Raticate           .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Raticate            h3{
+        color: rgb(22, 21, 21);
+      }
+      
+      .Raticate            .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Raticate          .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Spearow             {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Spearow            .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(darkgray, cornflowerblue, cadetblue);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -4360px;
+        left: -150px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Spearow             .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Spearow             .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Spearow            .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Spearow             h3{
+        color: gray;
+      }
+      
+      .Spearow             .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Spearow           .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Fearow              {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Fearow             .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(darkgray, cornflowerblue, cadetblue);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -4750px;
+        left: 380px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Fearow              .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Fearow              .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Fearow             .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Fearow              h3{
+        color: gray;
+      }
+      
+      .Fearow              .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Fearow            .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Ekans               {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Ekans              .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: violet;
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -4665px;
+        left: -150px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Ekans               .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Ekans               .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Ekans              .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Ekans               h3{
+        color: rgb(110, 10, 131);
+      }
+      
+      .Ekans               .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Ekans             .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Arbok               {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Arbok              .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: violet;
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -5040px;
+        left: 380px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Arbok               .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Arbok               .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Arbok              .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Arbok               h3{
+        color: rgb(110, 10, 131);
+      }
+      
+      .Arbok               .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Arbok             .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Pichu               {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Pichu              .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(234, 234, 41);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -4990px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Pichu               .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Pichu               .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Pichu              .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Pichu               h3{
+        color: orange;
+      }
+      
+      .Pichu               .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Pichu             .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Pikachu               {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Pikachu              .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(234, 234, 41);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -5380px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Pikachu               .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Pikachu               .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Pikachu              .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Pikachu               h3{
+        color: orange;
+      }
+      
+      .Pikachu               .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Pikachu             .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Raichu               {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Raichu              .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(234, 234, 41);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -5730px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Raichu               .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Raichu               .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Raichu              .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Raichu               h3{
+        color: orange;
+      }
+      
+      .Raichu               .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Raichu             .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Sandshrew                {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Sandshrew               .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(210, 210, 59),rgb(19, 135, 19));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -5700px;
+        left: -150px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Sandshrew                .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Sandshrew                .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Sandshrew               .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Sandshrew                h3{
+        color:coral;
+      }
+      
+      .Sandshrew                .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Sandshrew              .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Sandslash                 {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Sandslash                .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(210, 210, 59),rgb(19, 135, 19));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -6075px;
+        left: 380px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Sandslash                 .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Sandslash                 .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Sandslash                .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Sandslash                 h3{
+        color:coral;
+      }
+      
+      .Sandslash                 .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Sandslash               .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Nidoran                 {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Nidoran                .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: violet;
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -6000px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Nidoran                 .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Nidoran                 .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Nidoran                .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Nidoran                 h3{
+        color:rgb(110, 10, 131);
+      }
+      
+      .Nidoran                 .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Nidoran               .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Nidorina                  {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Nidorina                 .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: violet;
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -6400px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Nidorina                  .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Nidorina                  .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Nidorina                 .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Nidorina                  h3{
+        color:rgb(110, 10, 131);
+      }
+      
+      .Nidorina                  .card .content {
+        position : relative;
+        top : -170px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Nidorina                .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Nidoqueen                  {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Nidoqueen                 .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(210, 210, 59),rgb(19, 135, 19), violet);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -6760px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Nidoqueen                  .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Nidoqueen                  .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Nidoqueen                 .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Nidoqueen                  h3{
+        color:rgb(110, 10, 131);
+      }
+      
+      .Nidoqueen                  .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Nidoqueen                .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Nidoran♂                  {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Nidoran♂                 .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: violet;
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -6700px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Nidoran♂                  .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Nidoran♂                  .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Nidoran♂                 .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Nidoran♂                  h3{
+        color:rgb(110, 10, 131);
+      }
+      
+      .Nidoran♂                  .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Nidoran♂                .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Nidorino                  {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Nidorino                 .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: violet;
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -7100px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Nidorino                  .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Nidorino                  .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Nidorino                 .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Nidorino                  h3{
+        color:rgb(110, 10, 131);
+      }
+      
+      .Nidorino                  .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Nidorino                .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Nidoking                   {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Nidoking                  .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(210, 210, 59),rgb(19, 135, 19), violet);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -7440px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Nidoking                   .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Nidoking                   .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Nidoking                  .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Nidoking                   h3{
+        color:rgb(110, 10, 131);
+      }
+      
+      .Nidoking                   .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Nidoking                 .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Cleffa                    {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Cleffa                   .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(145, 186, 222);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -7380px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Cleffa                    .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Cleffa                    .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Cleffa                   .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Cleffa                    h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Cleffa                    .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Cleffa                  .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Clefairy                    {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Clefairy                   .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(145, 186, 222);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -7785px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Clefairy                    .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Clefairy                    .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Clefairy                   .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Clefairy                    h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Clefairy                    .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Clefairy                  .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Clefable                     {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Clefable                    .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(145, 186, 222);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -8120px;
+        left: 620px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Clefable                     .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Clefable                     .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Clefable                    .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Clefable                     h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Clefable                     .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Clefable                   .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Vulpix                      {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Vulpix                     .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(255, 115, 0);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -8100px;
+        left: -150px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Vulpix                      .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Vulpix                      .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Vulpix                     .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Vulpix                      h3{
+        color:brown;
+      }
+      
+      .Vulpix                      .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Vulpix                    .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Ninetales                       {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Ninetales                      .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color: rgb(255, 115, 0);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -8470px;
+        left: 380px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Ninetales                       .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Ninetales                       .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Ninetales                      .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Ninetales                       h3{
+        color:brown;
+      }
+      
+      .Ninetales                       .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Ninetales                     .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Igglybuff                       {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Igglybuff                      .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(151, 144, 144), rgb(129, 121, 121), rgb(145, 186, 222));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -8450px;
+        left: -350px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Igglybuff                       .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Igglybuff                       .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Igglybuff                      .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Igglybuff                       h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Igglybuff                       .card .content {
+        position : relative;
+        top : -180px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Igglybuff                     .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Jigglypuff                        {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Jigglypuff                       .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(151, 144, 144), rgb(129, 121, 121), rgb(145, 186, 222));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -8850px;
+        left: 130px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Jigglypuff                        .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Jigglypuff                        .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Jigglypuff                       .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Jigglypuff                        h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Jigglypuff                        .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Jigglypuff                      .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Wigglytuff                         {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Wigglytuff                        .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(151, 144, 144), rgb(129, 121, 121), rgb(145, 186, 222));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -9215px;
+        left: 620px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Wigglytuff                         .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Wigglytuff                         .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Wigglytuff                        .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Wigglytuff                         h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Wigglytuff                         .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Wigglytuff                       .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Zubat                          {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Zubat                         .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(151, 144, 144), rgb(129, 121, 121), violet);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -9150px;
+        left: -350px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Zubat                          .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Zubat                          .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Zubat                         .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Zubat                          h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Zubat                          .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Zubat                        .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Golbat                           {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Golbat                          .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(151, 144, 144), rgb(129, 121, 121), violet);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -9550px;
+        left: 130px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Golbat                           .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Golbat                           .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Golbat                          .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Golbat                           h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Golbat                           .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Golbat                         .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Crobat                           {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Crobat                          .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient(rgb(151, 144, 144), rgb(129, 121, 121), violet);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -9890px;
+        left: 620px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Crobat                           .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Crobat                           .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Crobat                          .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Crobat                           h3{
+        color:rgb(37, 4, 44);
+      }
+      
+      .Crobat                           .card .content {
+        position : relative;
+        top : -190px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Crobat                         .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Paras                            {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Paras                           .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient( rgb(227, 201, 118), greenyellow);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -9900px;
+        left: -150px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Paras                            .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Paras                            .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Paras                           .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Paras                            h3{
+        color:coral;
+      }
+      
+      .Paras                            .card .content {
+        position : relative;
+        top : -210px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Paras                          .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Parasect                             {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Parasect                            .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient( rgb(227, 201, 118), greenyellow);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -10270px;
+        left: 380px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Parasect                             .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Parasect                             .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Parasect                            .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Parasect                             h3{
+        color:coral;
+      }
+      
+      .Parasect                             .card .content {
+        position : relative;
+        top : -210px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Parasect                           .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Venonat                              {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Venonat                             .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient( rgb(227, 201, 118), violet);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -10250px;
+        left: -150px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Venonat                              .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Venonat                              .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Venonat                             .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Venonat                              h3{
+        color:coral;
+      }
+      
+      .Venonat                              .card .content {
+        position : relative;
+        top : -200px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Venonat                            .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Venomoth                               {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Venomoth                              .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient( rgb(227, 201, 118), violet);
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -10625px;
+        left: 380px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Venomoth                               .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Venomoth                               .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Venomoth                              .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Venomoth                               h3{
+        color:coral;
+      }
+      
+      .Venomoth                               .card .content {
+        position : relative;
+        top : -200px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Venomoth                             .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+
+      .Mimikyu                                {
+        position : relative;
+        width : 1100px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 30px;  
+      }
+      
+      .Mimikyu                               .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-image: linear-gradient( purple, rgb(145, 186, 222));
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: -10625px;
+        left: 120px;
+        display : flex;
+        flex-direction: column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .Mimikyu                                .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .Mimikyu                                .card .image {
+        position : relative;
+        width : 260px;
+        height : 260px;
+        
+        top : -40%;
+        left: 21px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+        border-radius : 20px;
+      }
+      
+      .Mimikyu                               .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+
+      .Mimikyu                                h3{
+        color:rgb(55, 0, 54);
+      }
+      
+      .Mimikyu                                .card .content {
+        position : relative;
+        top : -200px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .Mimikyu                              .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
